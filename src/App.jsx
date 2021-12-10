@@ -1,6 +1,7 @@
 import Announcement from "./components/Announcement";
 import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
+import Process from "./components/Process";
 
 const App = () => {
   return (
@@ -8,6 +9,7 @@ const App = () => {
     <Announcement />
     <Navbar />
     <Hero />
+    <Process />
   </>
   )};
 
