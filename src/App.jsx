@@ -1,11 +1,12 @@
-import styled from "styled-components";
 import Announcement from "./components/Announcement";
+import Navbar from "./components/Navbar";
 
 const App = () => {
   return (
-  <div>
+  <>
     <Announcement />
-  </div>
+    <Navbar />
+  </>
   )};
 
 export default App;
