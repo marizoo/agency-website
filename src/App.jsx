@@ -1,5 +1,6 @@
 import Announcement from "./components/Announcement";
 import Creator from "./components/Creator";
+import Footer from "./components/Footer";
 import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
 import Popular from "./components/Popular";
@@ -16,6 +17,7 @@ const App = () => {
     <Creator />
     <Popular />
     <TakeLeap />
+    <Footer />
   </>
   )};
 
