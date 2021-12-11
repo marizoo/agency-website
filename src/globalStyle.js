@@ -19,3 +19,18 @@ export const secondaryColor = () => {
     #ccac00
     `;
 };
+
+export const centerAll = () => {
+  return css`
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  `;
+};
+
+export const columnThis = () => {
+  return css`
+    display: flex;
+    flex-direction: column;
+  `;
+};
