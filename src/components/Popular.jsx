@@ -45,7 +45,9 @@ justify-content: center;
 align-items: flex-end;
 font-size: 18px;
 text-decoration: underline;
-color: gray;
+color: #161616;
+cursor: pointer;
+letter-spacing: 1px;
 `
 
 const Desc = styled.div`
@@ -57,6 +59,7 @@ align-items: center;
 justify-content: center;
 text-align: center;
 font-size: 21px;
+font-weight: 300;
 `
 
 const ImageContainer = styled.div`
@@ -64,6 +67,7 @@ flex: 5;
 width: 100%;
 background-color: lightblue;
 position: relative;
+overflow: hidden;
 `
 
 const Image = styled.img`
@@ -102,20 +106,20 @@ const Popular = () => {
                     <Card color="#ddd">
                         <TitleLink>call us</TitleLink>
                         <Desc>
-                            Lorem ipsum dolor sit amet constur adipis elit. Officia.
+                            Lorem ipsum dolor sit amet constur adipis elit. Officia amet constur .
                         </Desc>
                         <ImageContainer >
-                            <Image src="" alt="image of the card" />
+                            <Image src="https://images.pexels.com/photos/6612288/pexels-photo-6612288.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" alt="image of the card" />
                             <ImageDesc bg="#7d7d7d">love lollipops</ImageDesc>
                         </ImageContainer>
                     </Card>
-                    <Card color="#a38b04">
+                    <Card color="#ccac00">
                         <TitleLink>call us</TitleLink>
                         <Desc>
                             Lorem ipsum  sit amet consectetur adipisicing elit. Officia.
                         </Desc>
                         <ImageContainer>
-                            <Image src="" alt="image of the card" />
+                            <Image src="https://images.pexels.com/photos/389818/pexels-photo-389818.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" alt="image of the card" />
                             <ImageDesc bg="black">love lollipops</ImageDesc>
                         </ImageContainer>
                     </Card>
@@ -125,7 +129,7 @@ const Popular = () => {
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. 
                         </Desc>
                         <ImageContainer>
-                            <Image src="" alt="image of the card" />
+                            <Image src="https://images.pexels.com/photos/6110117/pexels-photo-6110117.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" alt="image of the card" />
                             <ImageDesc bg="#7d7d7d">love lollipops</ImageDesc>
                         </ImageContainer>
                     </Card>
@@ -135,8 +139,8 @@ const Popular = () => {
                             Lorem dolor sit amet consectetur adipisicing elit. Officia.
                         </Desc>
                         <ImageContainer>
-                            <Image src="" alt="image of the card" />
-                            <ImageDesc bg="#a38b04">love lollipops</ImageDesc>
+                            <Image src="https://images.pexels.com/photos/4056529/pexels-photo-4056529.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" alt="image of the card" />
+                            <ImageDesc bg="#ccac00">love lollipops</ImageDesc>
                         </ImageContainer>
                     </Card>
                 </CardContainer>

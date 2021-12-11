@@ -20,7 +20,7 @@ position: relative;
 filter: brightness(50%);
 
 /* dont think this work */
-&::before {
+/* &::before {
 position: absolute;
   content: '';
   width: 100%;
@@ -28,7 +28,7 @@ position: absolute;
   background: linear-gradient(rgba(0, 0, 0, 0), #020230);
   top: 0;
   left: 0;
-}
+} */
 ` 
 
 
@@ -63,7 +63,7 @@ border:none;
 const Hero = () => {
     return (
         <Container>
-        <HeroImg src="https://images.pexels.com/photos/4065876/pexels-photo-4065876.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" alt="hero image"/> 
+        <HeroImg src="https://images.pexels.com/photos/5778899/pexels-photo-5778899.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" alt="hero image"/> 
             <TextContainer>
                 <H2>
                     Want to turn your passion project into a

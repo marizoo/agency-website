@@ -100,7 +100,7 @@ const TakeLeap = () => {
             </TextWrapper>
         </TextContainer>
         <ImageContainer>
-            <Image src="" alt="table in office"/>
+            <Image src="https://images.pexels.com/photos/4039177/pexels-photo-4039177.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" alt="mom and daughter image"/>
         </ImageContainer>
     </Container>
     )

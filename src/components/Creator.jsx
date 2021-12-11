@@ -59,12 +59,12 @@ const Creator = () => {
     return (
         <Container>
             <ImageContainer>
-                <Image src="" alt="hannah on laptop"/>
+                <Image src="https://images.pexels.com/photos/6612272/pexels-photo-6612272.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" alt="hannah on laptop"/>
             </ImageContainer>
             <TextContainer>
                 <TextWrapper>
                     <Title>The Creator</Title>
-                    <Greetings>Hi there, I'm Hannah</Greetings>
+                    <Greetings>Hi there, We are Alex & Carmen</Greetings>
                     <Desc>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut blanditiis vel esse sequi, id eos aperiam libero amet fugit iusto!
                     </Desc>

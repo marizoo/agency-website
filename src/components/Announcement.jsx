@@ -20,6 +20,8 @@ align-items: center;
 
 const Text = styled.p`
 color: white;
+font-weight: 300;
+letter-spacing: 1px;
 `
 
 const Close = styled.div`
@@ -31,6 +33,9 @@ justify-content: center;
 align-items: center;
 background-color: #4e4e4e;
 color: white;
+padding-right: 8px;
+cursor: pointer;
+font-weight: 200;
 `
 
 const Announcement = () => {
