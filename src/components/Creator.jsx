@@ -20,7 +20,7 @@ object-fit: cover;
 `
 
 const TextContainer = styled.div`
-flex: 1.2;
+flex: 1;
 height: 100%;
 background: #dddddd;
 ${centerAll}
